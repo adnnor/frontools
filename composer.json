@@ -1,0 +1,13 @@
+{
+    "name": "adnnor/frontools",
+    "description": "Frontools configuration override",
+    "type": "magento2-component",
+    "extra": {
+        "map": [
+            [
+                "config",
+                "dev/tools/frontools/config"
+            ]
+        ]
+    }
+}
