@@ -1,0 +1,72 @@
+{
+    "sass-blank": {
+        "src": "vendor/snowdog/theme-blank-sass",
+        "dest": "pub/static/frontend/Snowdog/blank",
+        "locale": [
+            "en_US"
+        ],
+        "lang": "scss",
+        "postcss": [
+            "autoprefixer()"
+        ]
+    },
+    "sass-pandora": {
+        "src": "vendor/snowdog/theme-frontend-pandora",
+        "dest": "pub/static/frontend/Snowdog/pandora",
+        "parent": "sass-blank",
+        "locale": [
+            "en_US"
+        ],
+        "lang": "scss",
+        "postcss": [
+            "autoprefixer()"
+        ],
+        "modules": {
+            "Snowdog_Unity": "vendor/snowdog/module-unity/view/frontend"
+        }
+    },
+    "sass-shopmoodmedia": {
+        "src": "vendor/snowdog/theme-frontend-shopmoodmedia",
+        "dest": "pub/static/frontend/Snowdog/shopmoodmedia",
+        "parent": "sass-pandora",
+        "locale": [
+            "en_US"
+        ],
+        "lang": "scss",
+        "postcss": [
+            "autoprefixer()"
+        ],
+        "modules": {
+            "Snowdog_Unity": "vendor/snowdog/module-unity/view/frontend"
+        }
+    },
+    "sass-yourmoodmixmoodmedia": {
+        "src": "vendor/snowdog/theme-frontend-yourmoodmixmoodmedia",
+        "dest": "pub/static/frontend/Snowdog/yourmoodmixmoodmedia",
+        "parent": "sass-pandora",
+        "locale": [
+            "en_US"
+        ],
+        "lang": "scss",
+        "postcss": [
+            "autoprefixer()"
+        ],
+        "modules": {
+            "Snowdog_Unity": "vendor/snowdog/module-unity/view/frontend"
+        }
+    },
+    "bizmia": {
+        "src": "app/design/frontend/Snowdog/bizmia",
+        "dest": "pub/static/frontend/Snowdog/bizmia",
+        "parent": "sass-pandora",
+        "stylesDir": "app/design/frontend/Snowdog/bizmia/styles",
+        "locale": ["en_US"],
+        "lang": "scss",
+        "includePaths": ["../../../vendor/snowdog/frontools/node_modules"],
+        "postcss": ["autoprefixer()"],
+        "disableSuffix": true,
+        "modules": {
+            "Snowdog_Unity": "vendor/snowdog/module-unity/view/frontend"
+        }
+    }
+}
