@@ -1,6 +1,7 @@
 {
     "name": "adnnor/frontools",
     "description": "Frontools configuration override",
+    "license": "mit",
     "type": "magento2-component",
     "extra": {
         "map": [
