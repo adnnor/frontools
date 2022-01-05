@@ -3,6 +3,8 @@
     "description": "Frontools configuration override",
     "license": "mit",
     "version": "0.1.2",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "type": "magento2-component",
     "extra": {
         "map": [
